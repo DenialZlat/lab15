@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ContentWarningInfo</title>
+  <title>Content Warning Info</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,45 +15,36 @@
     <input type="text" id="search" placeholder="Пошук..." />
   </header>
 
-  <div class="main">
+  <main class="main">
     <aside>
-      <ul>
+      <nav>
+        <ul>
           <li><a href="pages/example1/index.html"><img src="pages/example1/media/thumb.jpg" alt="М1"> Монстр 1</a></li>
           <li><a href="pages/example2/index.html"><img src="pages/example2/media/thumb.jpg" alt="М2"> Монстр 2</a></li>
           <li><a href="pages/example3/index.html"><img src="pages/example3/media/thumb.jpg" alt="М3"> Монстр 3</a></li>
-      </ul>
+        </ul>
+      </nav>
     </aside>
 
-    <div class="content">
+    <section class="content">
       <div class="content-background"></div>
       <div class="content-foreground">
         <h2>Заголовок</h2>
         <p>Текст</p>
       </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.youtube.com/channel/UCIlwIUzgQz7wEJAXwZf73lg"><img src="social/youtube.png" alt="YouTube" /></a>
+      <a href="https://x.com/LandfallGames"><img src="social/twitter.png" alt="Twitter" /></a>
+      <a href="https://www.tiktok.com/@landfallgames"><img src="social/tik-tok.png" alt="TikTok" /></a>
+      <a href="https://www.instagram.com/landfall_official/"><img src="social/instagram.png" alt="Instagram" /></a>
+      <a href="https://landfall.se/content-warning-press-kit"><img src="social/link.png" alt="Сайт розробників" /></a>
     </div>
-  </div>
-
-<footer>
-  <div class="social-icons">
-    <a href="https://www.youtube.com/channel/UCIlwIUzgQz7wEJAXwZf73lg" target="_blank" rel="noopener noreferrer">
-      <img src="social/youtube.png" alt="YouTube" />
-    </a>
-    <a href="https://x.com/LandfallGames" target="_blank" rel="noopener noreferrer">
-      <img src="social/twitter.png" alt="X (Twitter)" />
-    </a>
-    <a href="https://www.tiktok.com/@landfallgames" target="_blank" rel="noopener noreferrer">
-      <img src="social/tik-tok.png" alt="TikTok" />
-    </a>
-    <a href="https://www.instagram.com/landfall_official/" target="_blank" rel="noopener noreferrer">
-      <img src="social/instagram.png" alt="Instagram" />
-    </a>
-    <a href="https://landfall.se/content-warning-press-kit" target="_blank" rel="noopener noreferrer">
-      <img src="social/link.png" alt="Сайт розробників" />
-    </a>
-  </div>
-  © 2025 ContentWarningInfo
-</footer>
-
+    <p>© 2025 ContentWarningInfo</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
